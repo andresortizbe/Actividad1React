@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 0fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "profile interest learn ."
+      "Expectativas none none ."
+      ". . . .";
+    width: 70%;
+  }
+  .none 
+  { 
+    grid-area: none; 
+    background: #e8505b;
+  }
+  .profile 
+  { 
+    grid-area: profile;
+    background: #fddb3a;
+
+  
+  }
+  .interest 
+  { 
+    grid-area: interest; 
+    background: #0278ae;
+  }
+  .learn { 
+    grid-area: learn;
+    background: #fa1616; 
+  }
+  .Expectativas 
+    { 
+    grid-area: Expectativas; 
+    background: #4a3f35;
+
+   }
